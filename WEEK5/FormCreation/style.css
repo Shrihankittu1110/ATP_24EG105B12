@@ -1,0 +1,45 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing: border-box;
+}
+h1{
+	text-align: center;
+	font-size: 50px;
+	color:aqua;
+}
+form{
+	margin:auto;
+	padding:30px;
+}
+
+label{
+	color:black;
+	font-size: 20px;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select,
+textarea{
+	width: 100%;
+	padding: 10px;
+	font-size: 18px;
+}
+.field{
+	margin-bottom: 20px;
+}
+
+button{
+	border:none;
+	padding:10px 20px;
+	border-radius:5px;
+	background-color: chocolate;
+	display:block;
+	margin:auto;
+}
+fieldset{
+	border: 2px solid black;
+	padding: 20px;
+	margin-top: 50px;
+}

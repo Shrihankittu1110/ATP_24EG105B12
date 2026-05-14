@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h1>FORM</h1>
+	<form>
+		<fieldset>
+			<legend>Personal Information</legend>
+		<div>
+			<label for="name">Name:</label>
+			<input type="text" id="name" name="name" placeholder="Enter name" autocomplete="off">
+		</div>
+
+		<div>
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email" placeholder="Enter email" autocomplete="off">
+		</div>
+
+			<label for="password">Password:</label>
+			<input type="password" id="password" name="password" placeholder="Enter password">
+		</div>
+
+		<div class="field">
+			<label>Skills:</label>
+			<div>
+				<input type="checkbox" name="react" id="react">
+				<label for="react">React</label>
+			</div>
+			<div>
+				<input type="checkbox" name="angular" id="angular">
+				<label for="angular">Angular</label>
+			</div>
+		</div>
+
+		<div class="field">
+			<label>Gender:</label>
+			<div>
+				<input type="radio" name="gender" id="male" value="male">
+				<label for="male">Male</label>
+			</div>
+			<div>
+				<input type="radio" name="gender" id="female" value="female">
+				<label for="female">Female</label>
+			</div>
+		</div>
+
+		<div class="field">
+			<label for="cars">Cars:</label>
+			<select name="cars" id="cars">
+				<option value="volvo">Volvo</option>
+				<option value="saab">Saab</option>
+				<option value="mercedes">Mercedes</option>
+				<option value="audi">Audi</option>
+			</select>
+		</div>
+
+		<div class="field">
+			<label for="feedback">Feedback:</label>
+			<textarea name="feedback" id="feedback" cols="30" rows="10"></textarea>
+		</div>
+
+		<button type="submit">Login</button>
+		</fieldset>
+	</form>
+	
+</body>
+</html>

@@ -1,0 +1,75 @@
+### LOGIN USER (run this first)
+POST http://localhost:4000/user-api/user-login
+Content-Type: application/json
+
+{
+  "email":"shrihan@gmail.com",
+  "password":"shrihan"
+}
+
+### READ ALL USERS (protected)
+GET http://localhost:4000/user-api/users
+
+
+### READ USER BY ID (protected)
+GET http://localhost:4000/user-api/user
+###create user
+POST http://localhost:4000/user-api/users/
+Content-Type: application/json
+
+{
+  "username":"shrihan",
+  "password":"shrihan",
+  "email":"shrihan@gmail.com",
+  "age":21
+}
+
+### UPDATE USER (protected)
+PUT http://localhost:4000/user-api/users/69ac4515ae2f76bf52e79c5b
+Content-Type: application/json
+
+{
+  "username":"shrihan",
+  "email":"shrihan@gmail.com",
+  "age":21
+}
+
+### DELETE USER (protected)
+DELETE http://localhost:4000/user-api/users/69b234dc2e5d79e23ed6e5b3
+
+
+### Add product touser cart.
+PUT http://localhost:4000/user-api/cart/product-id/69b25ff3a5e06af33c669ab0
+
+
+
+### CREATE PRODUCT (public)
+POST http://localhost:4000/product-api/products
+Content-Type: application/json
+
+{
+  "productId":"P103",
+  "productName":"tv",
+  "brand":"sony",
+  "price":45000
+}
+
+### READ ALL PRODUCTS (protected)
+GET http://localhost:4000/product-api/products
+
+### READ PRODUCT BY ID (protected)
+GET http://localhost:4000/product-api/products/69ac48b7807b3a8ea76c026c
+
+### UPDATE PRODUCT (protected)
+PUT http://localhost:4000/product-api/products/69ac48b7807b3a8ea76c026c
+Content-Type: application/json
+
+{
+  "productId":"P101",
+  "productName":"laptop",
+  "brand":"hp",
+  "price":45000
+}
+
+### DELETE PRODUCT (protected)
+DELETE http://localhost:4000/product-api/products/69b234f32e5d79e23ed6e5b6

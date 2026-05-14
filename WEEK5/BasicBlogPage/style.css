@@ -1,0 +1,197 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+img{
+	max-width:100%;
+	display:block;
+}
+
+main{
+	font-family:Arial, sans-serif;
+	line-height:1.5;
+}
+
+main{
+	background:rgb(207, 24, 55);
+	padding:20px;
+}
+
+main h1,
+main h2{
+	text-align: center;
+	padding:10px;
+	color:aliceblue;
+	
+}
+
+main > p{
+	padding:10px 0;
+	margin-left:100px;
+	color:aliceblue;
+}
+
+.card{
+	display:flex;
+	flex-wrap:wrap;
+	gap:40px;
+	margin:25px 100px;
+}
+
+section {
+	flex:1 1 220px;
+	min-width:0;
+	background:rgba(255,255,255,0.08);
+	padding:20px;
+	border-radius:12px;
+
+}
+
+section p{
+	margin:0;
+	padding:10px 0;
+	color:aliceblue;
+}
+
+.card button{
+	padding:8px 16px;
+	margin-top:10px;
+	border:none;
+	border-radius:6px;
+	background:white;
+	color:rgb(179, 11, 11);
+	cursor:pointer;
+}
+
+.card button:hover{
+	background:#f0f0f0;
+}
+
+nav {
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+	gap:20px;
+	flex-wrap:wrap;
+	padding:20px;
+	background-color:rgb(202, 187, 187);
+
+}
+
+nav h2{
+	display:flex;
+	gap:0;
+}
+
+.brand-quick{
+	color:#000;
+}
+
+.brand-blog{
+	color:rgb(179, 11, 11);
+}
+
+nav ul{
+	width:200px;
+	display:flex;
+	list-style:none;
+    justify-content:space-between;
+}
+
+nav form{
+	display:flex;
+	gap:10px;
+	flex-wrap:wrap;
+}
+
+nav input,
+nav button{
+	padding:8px 12px;
+}
+
+footer{
+
+	background:#1f1f1f;
+	color:#fff;
+	padding:30px 60px;
+	
+}
+
+.footer{
+	display:flex;
+	flex-wrap:wrap;
+	gap:40px;
+    justify-content:space-around;
+}
+
+.footer div{
+	flex:1 1 180px;
+}
+
+.footer h3{
+	margin-bottom:10px;
+}
+
+.footer p{
+	line-height:1.7;
+	margin:0;
+}
+
+@media (max-width:900px){
+	main > p,
+	.card{
+		margin-left:40px;
+		margin-right:40px;
+	}
+	footer{
+		padding:30px 40px;
+	}
+}
+
+@media (max-width:600px){
+	nav{
+		flex-direction:column;
+		text-align:center;
+	}
+
+	nav ul{
+		width:100%;
+		max-width:240px;
+	}
+
+	nav form{
+		width:100%;
+		justify-content:center;
+	}
+
+	main{
+		padding:20px 15px;
+	}
+
+	main > p,
+	.card{
+		margin-left:0;
+		margin-right:0;
+	}
+	.card{
+		gap:20px;
+	}
+	section{
+		padding:16px;
+	}
+	footer{
+		padding:25px 20px;
+	}
+	.footer{
+		gap:24px;
+	}
+}
+@media (max-width:500px){
+	.card button{
+		display:none;
+	}
+}
+
+

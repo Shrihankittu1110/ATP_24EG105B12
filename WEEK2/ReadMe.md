@@ -41,25 +41,41 @@ Node.js	Runtime environment
 WEEK-2-Array-Methods-Timers-and-Mini-Projects/
 │
 ├── BankTransactionAnalyzer.js
+
 ├── CopyExtendArray.js
+
 ├── DailyTemperatureAnalyzer.js
+
 ├── EmployeePayrollProcessor.js
+
 ├── MovieStreamingPlatform.js
+
 ├── Online CourseNameProcessor.js
+
 ├── recordingTemperature.js
+
 ├── restParameter.js
+
 ├── setInterval.js
+
 ├── setTimeout.js
+
 ├── ShallowDeepCopy.js
+
 ├── shoppingcartsummary.js
+
 ├── StudentMarksList.js
+
 ├── StudentPerformanceDashboard.js
 │
+
 ├── ProblemStatment/
+
 │   │
 │   ├── LibaryManagementSystem.js
 │   │
 │   ├── EcommerceShopping/
+
 │   │   ├── product.js
 │   │   ├── cart.js
 │   │   ├── discount.js
@@ -67,10 +83,12 @@ WEEK-2-Array-Methods-Timers-and-Mini-Projects/
 │   │   └── app.js
 │   │
 │   └── TaskManagementSystem/
+
 │       ├── validator.js
 │       ├── task.js
 │       └── app.js
 │
+
 └── README.md
 ⚙️ Prerequisites
 

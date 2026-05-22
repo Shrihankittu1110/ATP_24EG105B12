@@ -1,4 +1,6 @@
 WEEK 1 - Basics of JavaScript
+
+
 📌 Introduction
 
 JavaScript is one of the most widely used programming languages for building websites, web applications, mobile applications, and backend services.
